@@ -1,6 +1,9 @@
 ## Optical flow behavioral tracer 
-#### last update: 18-05-2014
+*Last update: 18-05-2014*
 
+A standalone Mac OS application can be downloaded [here](http://neuroballs.net/download/processing_behavioral_tracer_macos.zip).
+
+`optical_flow2.pde`: Processing.org (.pde) script. Run with Processing app. Does not work with Processing 3 or later versions!
 Based on the optical flow algorithm by Hidetoshi Shimodaira (shimo@is.titech.ac.jp 2010 GPL)
 uses the OneEuroFilter for signal smoothing (http://www.lifl.fr/~casiez/1euro/) 
 and the cp5 library for GUI elements (http://www.sojamo.de/libraries/controlP5/)
@@ -26,7 +29,7 @@ Export: TXT file with 3 comma-separated columns:
 * [1] - x 
 * [2] - y
 
- Export Structure: 
+Export Structure: 
  * Date/Animal Name/txy_data 'Animal name'.txt
  * Date/Animal Name/trace date 'Animal name'.txt
  Start Export: Camera screenshot (gets refreshed by selecting a different camera option)
