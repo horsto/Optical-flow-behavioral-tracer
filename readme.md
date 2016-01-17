@@ -1,3 +1,5 @@
+![mouse](mouse.png)
+
 ## Optical flow behavioral tracer 
 *Last update: 18-05-2014*
 
